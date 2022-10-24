@@ -65,12 +65,12 @@
 				1D8E5D2E28FF1CAC00DD92EB /* GameScene.sks */,
 				1D8E5D3228FF1CAC00DD92EB /* GameScene.swift */,
 				1D8E5D3428FF1CAC00DD92EB /* GameViewController.swift */,
+				1D575C2E2905BF63000B221F /* WhackSlot.swift */,
 				1D8E5D3628FF1CAC00DD92EB /* Main.storyboard */,
 				1D8E5D3928FF1CAC00DD92EB /* Assets.xcassets */,
 				1D8E5D3B28FF1CAC00DD92EB /* LaunchScreen.storyboard */,
 				1D8E5D4428FF1E2100DD92EB /* whack.caf */,
 				1D8E5D4328FF1E2100DD92EB /* whackBad.caf */,
-				1D575C2E2905BF63000B221F /* WhackSlot.swift */,
 			);
 			path = WhackAPenguin;
 			sourceTree = "<group>";

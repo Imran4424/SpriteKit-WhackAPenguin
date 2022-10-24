@@ -34,6 +34,7 @@ class GameScene: SKScene {
         addChild(gameScore)
         score = 0
         
+        // slots position
         
     }
     
@@ -41,7 +42,10 @@ class GameScene: SKScene {
         
     }
     
-    override func update(_ currentTime: TimeInterval) {
-        // Called before each frame is rendered
+    func createSlot(at position: CGPoint) {
+        let slot = WhackSlot()
+        slot.configure(at: position)
+        addChild(slot)
+        slots.append(slot)
     }
 }
