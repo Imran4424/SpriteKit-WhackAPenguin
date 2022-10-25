@@ -35,7 +35,7 @@ class WhackSlot: SKNode {
     
     func show(hideTime: Double) {
         if isVisible {
-            printContent("penguing is already visible")
+            print("penguing is already visible")
             return
         }
         
@@ -58,7 +58,7 @@ class WhackSlot: SKNode {
     
     func hide() {
         if !isVisible {
-            printContent("penguin is already hidden")
+            print("penguin is already hidden")
             return
         }
         
