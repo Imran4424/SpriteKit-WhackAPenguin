@@ -93,16 +93,12 @@ class GameScene: SKScene {
                 score -= 5
                 
                 run(SKAction.playSoundFileNamed("whackBad.caf", waitForCompletion: false))
-                print("after bad sound play")
             } else if node.name == "charEnemy" {
                 whackSlot.charNode.xScale = 0.85
                 whackSlot.charNode.yScale = 0.85
                 
                 score += 1
-                SKAction.run {
-                    SKAction.playSoundFileNamed("whack.caf", waitForCompletion: false)
-                }
-                print("after good sound play")
+                run(SKAction.playSoundFileNamed("whack.caf", waitForCompletion: false))
             }
         }
     }
