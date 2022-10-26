@@ -111,9 +111,9 @@ class GameScene: SKScene {
     }
     
     func createEnemy() {
-        //gameRounds += 1
+        gameRounds += 1
         
-        if gameRounds > 30 {
+        if gameRounds > 50 {
             for slot in slots {
                 slot.hide()
             }
